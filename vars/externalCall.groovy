@@ -1,7 +1,8 @@
 def call(String whoAreYou) {
+	
+	echo "Build #,  ${env.BUILd_NUMBER}"
 	echo "Now we're being called more magically, ${whoAreYou}, thanks to the call(...) method."
-	/*def z = new gov.uspto.cicd.demohelper.CicdHelper()
-	z.checkOutFrom(repo)*/
+	
 }
 
 return this;
